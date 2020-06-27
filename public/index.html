@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript calculator</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="app.js"></script>
+
+</head>
+<body>
+    <h1 class="text-center my-5 mx-5">JAVASCRIPT CALCULATOR</h1>
+    <div style="width: 350px; height: 280px; background-color:black !important; color: white; margin-top: 10%; margin-left: 42%;" class="justify-content-center text-center" >
+        <input id="result" type="text" placeholder="enter your number" class="form-control-lg mt-3"><br>
+        
+        <button class ="btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('7')"  style="font-size: 1.2em;">7</button>
+        <button class ="btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('8')" style="font-size: 1.2em;">8</button>
+        <button class ="btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('9')" style="font-size: 1.2em;">9</button>
+        <button class ="btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('+')" style="font-size: 1.2em;">+</button>
+        
+        <br>
+        <button class ="btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('4')" style="font-size: 1.2em;">4</button>
+        <button class ="btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('5')" style="font-size: 1.2em;">5</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('6')" style="font-size: 1.2em;">6</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('-')"  style="font-size: 1.2em;">-</button> <br>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('3')" style="font-size: 1.2em;">3</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('2')" style="font-size: 1.2em;">2</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('1')" style="font-size: 1.2em;">1</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('*')" style="font-size: 1.2em;">*</button> <br>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="myclear()" style="font-size: 1.2em;">C</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('0')" style="font-size: 1.2em;">0</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2 " onclick="getresult()" style="font-size: 1.2em;">=</button>
+        <button class =" btn  btn-light px-3 mt-2 col-md-2 col-sm-2" onclick="getnumber('/')" style="font-size: 1.2em;">/</button> <br>
+   
+    </div>
+    
+
+
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
